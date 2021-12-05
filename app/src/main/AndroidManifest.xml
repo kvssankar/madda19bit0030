@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Madda19bit0030">
         <activity
+            android:name=".Cardview"
+            android:exported="true" />
+        <activity
             android:name=".FourthActivity"
             android:exported="true" />
         <activity

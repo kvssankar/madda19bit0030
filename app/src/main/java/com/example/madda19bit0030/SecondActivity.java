@@ -21,5 +21,14 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(new Intent(SecondActivity.this, ThirdActivity.class));
             }
         });
+
+        Button btntemp = (Button)findViewById(R.id.btntemp);
+
+        btntemp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SecondActivity.this, Cardview.class));
+            }
+        });
     }
 }
